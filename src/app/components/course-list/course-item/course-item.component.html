@@ -1,0 +1,9 @@
+<th scope="row" class="text-center align-middle">{{ course.id }}</th>
+<td class="text-center align-middle">{{ course.title }}</td>
+<td class="text-center align-middle">{{ course.duration }}</td>
+<td class="text-center align-middle">{{ course.durationUnit }}</td>
+<td class="text-center align-middle">{{ course.description }}</td>
+<td class="text-center align-middle w-25">
+    <button type="button" class="btn btn-danger mr-3" (click)="delete()">Delete</button>
+    <button type="button" class="btn btn-info" (click)="edit()">Edit</button>
+</td>
